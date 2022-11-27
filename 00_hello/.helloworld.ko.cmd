@@ -1,0 +1,1 @@
+cmd_/home/zhu/linux/code/hello/helloworld.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/zhu/linux/code/hello/helloworld.ko /home/zhu/linux/code/hello/helloworld.o /home/zhu/linux/code/hello/helloworld.mod.o
